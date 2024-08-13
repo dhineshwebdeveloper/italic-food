@@ -1,0 +1,355 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Font family */
+            --font-family-title: "Abril Fatface", serif;
+            --font-family-normal: "Montserrat", sans-serif;
+        }
+    .navbar-brand img{
+      filter: drop-shadow(2px 2px 2px white);
+    }
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #918282;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #ff6b6b, #f94d6d, #e9448e);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #f94d6d, #e9448e, #c44598);
+}
+
+
+        body {
+            color: white !important;
+           overflow-x: hidden;
+        }
+
+        h2 {
+            font-family: var(--font-family-title ) !important;
+        }
+
+        p {
+            font-family: var(--font-family-normal);
+        }
+
+        .btn-pill {
+            border-radius: 50rem;
+        }
+
+        .img-1 {
+            font-family: var(--font-family-normal);
+            background: linear-gradient(90deg, rgba(34,34,34,0.9999999999999999) 0%, rgba(34,34,34,0.9999999999999999) 38%, rgba(34,34,34,0) 100%), url(background/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(1\).png);
+            width: 100%;
+        }
+
+        .best-pizza {
+            margin-top: 150px;
+            width: 45%;
+        }
+
+        .best-pizza h2 {
+
+            font-size: 60px;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+        }
+
+        .best-pizza p {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .btn-close {
+            filter: invert(1);
+        }
+
+        .menu-section {
+            padding: 50px 20px;
+            text-align: center;
+            background: url(background/06.08.2024_12.16.25_REC.png) no-repeat;
+            background-size: cover;
+           
+        }
+
+        .menu-section h2 {
+            font-family: 'Abril Fatface', serif;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        .menu-item {
+            margin-bottom: 30px;
+        }
+
+        .menu-item img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+           
+        }
+
+        .menu-item h3 {
+            font-size: 1.5rem;
+            margin-top: 15px;
+        }
+        .menu-item p {
+            font-size: 1rem;
+        }
+        .menu-section span{
+            font-size: 1rem;
+            font-family: var(--font-family-normal);
+        }
+        .special-offers-section {
+            width: 100%;
+            height: auto;
+            background: url(background/3.svg) no-repeat;
+            background-size: cover;
+        }
+
+        .special-offers-section h2 {
+            font-family: var(--font-family-title);
+            font-size: 4.5rem;
+            margin-bottom: 40px;
+        }
+        .special-offers-section p{
+            font-size: 1.5rem;
+        }
+        .offer{
+            margin-top: 60px !important;
+        }
+        .rounded-circle1{
+            border: 5px solid white;
+            width: 230px;
+            height: 230px;
+            padding-top: 70px;
+        }
+        .special-offers-section2{
+            width: 100%;
+            height: auto;
+            background: url(background/4.svg) no-repeat;
+            background-size: cover;
+            object-fit: cover;
+           
+        }
+        .img-6{
+            background:linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7)), url(background/6.svg) no-repeat;
+            opacity: 0.902;
+            width: 100%;
+           height: 700px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          vertical-align: center;
+         
+         
+        }
+        .img-6 h3{
+            font-family:var(--font-family-title);
+            font-size: 50px;
+            letter-spacing: 1px;
+        }
+        .img-6 p{
+            font-family:var(--font-family-normal);
+            font-size: 30px;
+            letter-spacing: 1px;
+        }
+       .img-7{
+        background:url(background/dh.png) no-repeat;
+        width: 100%;
+        height: 100%;
+       
+    }
+    .img-7 h2{
+        font-family:var(--font-family-title);
+        font-size: 50px;
+        letter-spacing: 1px;
+    }
+    .img-7 p{
+        font-family:var(--font-family-normal);
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    .img-7 input{
+        border-radius: 20px;
+    }
+    footer{
+        background-color: black;
+        height: 100%;
+    }
+    footer h2{
+        font-family:var(--font-family-title);
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+        /* Mobile Styles */
+        @media (max-width: 768px) {
+            .best-pizza {
+                width: 100%;
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            .navbar-brand {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .navbar-nav {
+                text-align: center;
+            }
+
+            .navbar-nav .nav-item {
+                margin-bottom: 10px;
+            }
+
+            .offcanvas-body {
+                font-size: 18px;
+                padding: 0 20px;
+                
+            }
+            .menu-section h2 {
+                font-size: 2rem;
+            }
+
+            .menu-item h3 {
+                font-size: 1.25rem;
+            }
+
+            .menu-item p {
+                font-size: 0.875rem;
+
+            }
+            .special-offers-section h2 {
+                font-size: 2rem;
+            }
+            .offer{
+                margin-top: 0px !important;
+            }
+        }
+/*anime*/
+.navbar-nav .nav-link {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link:focus::after {
+    width: 100%;
+}
+/* Keyframes for different animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes grow {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* General fade-in for all sections */
+section {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Navbar animation */
+.navbar {
+    animation: slideInFromTop 0.8s ease-out;
+}
+
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Button animation */
+button {
+    animation: grow 0.5s ease-in-out;
+}
+
+/* Image animation */
+.menu-item img,
+.best-pizza img {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Text animation */
+h2, h3, p {
+    animation: slideInFromBottom 1s ease-in-out;
+}
+
+/* Special sections */
+.best-pizza, .special-offers-section {
+    animation: slideInFromLeft 1.2s ease-in-out;
+}
+
+.menu-section, .statistics-section {
+    animation: slideInFromRight 1.2s ease-in-out;
+}
